@@ -9,13 +9,13 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  "SELECT AVG(gpa) AS average_student_gpa FROM students"
+  "SELECT AVG(gpa) AS average_student_gpa FROM students;"
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(tardies) AS total_tardies_for_all_students FROM students"
+  "SELECT SUM(tardies) AS total_tardies_for_all_students FROM students;"
 end
 
 def average_gpa_for_9th_grade
-  
+  "SELECT AVG(gpa) AS average_student_gpa FROM students LIMIT 9;"
 end
